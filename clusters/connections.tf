@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("../../keys/google.json")}"
+  credentials = "${file("../keys/google.json")}"
   project = "miani-gcloud"
   region = "us-west1"
 }
