@@ -1,16 +1,10 @@
-provider "google" {
-  credentials = "${file("../../keys/google.json")}"
-  project = "miani-gcloud"
-  region = "us-west1"
-}
-
 provider "aws" {
   region = "us-east-2"
 }
 
 provider "azurerm" {
-  subscription_id = "2a9e42ab-a78f-4e9c-ab77-a5e12e7781b1"
-  client_id = "0dc7c2d9-afb7-48fa-a1a5-a24a0d0dd429"
-  client_secret = "6f8b75ea-3890-47fb-8551-a0d14ef00dff"
-  tenant_id = "b41b72d0-4e9f-4c26-8a69-f949f367c91d"
+  subscription_id = "e570abd2-6c09-4310-b9cd-538e6a39dff1"
+  client_id = "cf303b63-e2f3-4d09-9f6c-e1af848dc6d8"
+  client_secret = "d7eb81f0-ed6f-4aa0-8c0d-6187ff0d983e"
+  tenant_id = "c7c08208-4f4d-45f1-83cd-5e2f491ab786"
 }
